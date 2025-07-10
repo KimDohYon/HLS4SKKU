@@ -34,7 +34,7 @@
 
 ---
 
-### 🔹 2: Understanding Architecture
+### 2: Understanding Architecture
 
 - **목표:** 주어진 참조를 기반으로 어텐션 레이어를 HLS로 구현  
 - **요구사항:** 파이프라이닝, 병렬화 등 고급 HLS 기술 적용  
@@ -42,7 +42,7 @@
 
 ---
 
-### 🔹 3: Thinking in Optimization
+### 3: Thinking in Optimization
 
 - **목표:** 희소 행렬 곱셈(sparse matrix multiplication)의 연산 구조를 효율적으로 설계  
 - **요구사항:** 단순 반복문 구현을 넘어선 스마트 아키텍처 설계 원칙 적용  
@@ -50,7 +50,7 @@
 
 ---
 
-### 🔹 4: Building Complete Systems
+### 4: Building Complete Systems
 
 - **목표:** Convolution, ReLU, MaxPooling 등을 포함한 CNN 구조를 FPGA에 맞게 설계  
 - **요구사항:** 각 연산 모듈을 HLS로 구현하고 pragma를 통해 병렬화 최적화 적용  
@@ -58,7 +58,7 @@
 
 ---
 
-### 🔹 5: Challenging Advanced Models
+### 5: Challenging Advanced Models
 
 - **목표:** LLaMA 2 모델을 GPU 및 CPU에서 실행하고, 구조적 특징과 성능을 분석  
 - **요구사항:** PyTorch + Hugging Face Transformers를 활용하여 모델 로드 및 텍스트 추론 수행  
