@@ -1,7 +1,6 @@
 # ==== 설정 ====
 TOP := compute_attention_HLS
-PLATFORM := /home/andrew/xilinx_u250_gen3x16_xdma_4_1_202210_1/xilinx_u250_gen3x16_xdma_4_1_202210_1/xilinx_u250_gen3x16_xdma_4_1_202210_1.xpfm
-
+PLATFORM  := /tools/Xilinx/2025.1/Vitis/base_platforms/xilinx_kv260_base_202510_1/xilinx_kv260_base_202510_1.xpfm
 KERNEL := $(TOP)
 XO := $(KERNEL).xo
 XCLBIN := $(KERNEL).xclbin
